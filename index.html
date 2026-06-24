@@ -696,6 +696,29 @@
       font-size: 16px;
       line-height: 1.72;
       color: #58636f;
+      margin-bottom: 28px;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .contact-detail {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 15px;
+      color: var(--charcoal);
+      line-height: 1.5;
+    }
+    .contact-detail-icon {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--warm-accent);
+      flex-shrink: 0;
+      margin-top: 7px;
     }
 
     .form {
@@ -1146,6 +1169,16 @@
           <p class="eyebrow">Get in touch</p>
           <h2>Let's talk.</h2>
           <p class="contact-sub">We'd love to discuss how we can support your accounting and advisory needs. Reach out — we'll get back to you promptly.</p>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="contact-detail-icon"></span>
+              Suite 403, 47 Strand Street, Cape Town
+            </div>
+            <div class="contact-detail">
+              <span class="contact-detail-icon"></span>
+              <a href="tel:+27214235678">+(27) 21 423 5678</a>
+            </div>
+          </div>
         </div>
 
         <div class="contact-right">
